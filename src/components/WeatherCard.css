@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.box {
+  font-family: "McLaren", cursive;
+  font-family: "Montserrat", sans-serif;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  background: white;
+  box-shadow: #bec8e4 2px 2px 5px, white -2px -2px 5px;
+  transition: ease 0.4s;
+}
+
+.box:hover {
+  transform: scale(1.01);
+  background-color: #dae0e5;
+  box-shadow: #bec8e4 3px 3px 5px, #f3f3f3 -3px -3px 5px;
+  cursor: pointer;
+}
+
+.left-pane {
+  display: flex;
+  flex-direction: column;
+}
+.left-pane .city-name {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.bold{
+  font-weight: bold;
+  color:darkgrey;
+}
+
+.right-pane {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.right-pane .temp {
+  font-size: 60px;
+  font-weight: bold;
+}
